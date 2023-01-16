@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./javascript/script.js" defer></script>
+    <title>random project</title>
+</head>
+<body>
+    <header>
+        <div id="home"><a href="./index.html"><img id="logoImg" src="./assets/placeholder-image.webp" alt="placeholder"></a></div>
+    </header>
+    <main>
+        <h5>form</h5>
+        <form action="#">
+            <label for="firstName">First name*:</label>
+            <input type="text" name="firstName" id="firstName" required>
+            <label for="lastName">Last name*:</label>
+            <input type="text" name="lastName" id="lastName" required >
+            <label for="password">Password: (don't give an actual one)</label>
+            <input type="password" name="password" id="password">
+            <label for="picUrl">URL to img</label>
+            <input type="text" name="picUlr" id="picUrl" value="https://picsum.photos/100">
+            <button> submit</button>
+        </form>
+        
+        
+        <h5>this will mirror the data on submit</h5>
+        <div id="dataMirror">
+            <p class="firstName"></p>
+            <p class="lasstName"></p>
+            <p class="password"></p>
+            <img class="picUrl" src="" alt="">
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
